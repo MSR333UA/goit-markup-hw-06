@@ -62,8 +62,15 @@
         <div class="container">
           <h1 class="visually-hidden">Project</h1>
           <ul class="project-items list">
-            <li class="project-item"><button class="project-button" type="button">Усі</button></li>
             <li class="project-item">
+              <input type="radio" name="filter" value="all" id="all" checked />
+              <label for="all">Усі</label>
+              <button class="project-button" type="button">Усі</button>
+            </li>
+            <li class="project-item">
+              <input type="radio" name="filter" value="terms" id="terms" />
+              <label for="websites">Веб-сайти</label>
+
               <button class="project-button" type="button">Веб-сайти</button>
             </li>
             <li class="project-item">
