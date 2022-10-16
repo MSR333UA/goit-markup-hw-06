@@ -389,6 +389,18 @@
             </li>
           </ul>
         </div>
+
+        <div class="sign-up">
+          <b>Підпишіться на розсилку</b>
+          <input type="email" name="mail" id="mail" placeholder="E-mail" />
+        </div>
+        <div class="sign-up-submit">
+          <button class="submit" type="submit">
+            <svg class="icon-send" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-icon-send"></use></svg
+            >Підписатися
+          </button>
+        </div>
       </div>
     </footer>
 
@@ -401,48 +413,43 @@
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="list">Залиште свої дані, ми вам передзвонимо</p>
+        <b class="list">Залиште свої дані, ми вам передзвонимо</b>
         <div class="form-field">
           <label class="form-label" for="name">Ім'я</label>
-          <div>
-            <svg class="person" width="18" height="18">
-              <use href="./images/symbol-defs.svg#icon-person-black"></use>
-            </svg>
-          </div>
+
           <input class="form-input" type="text" name="name" id="name" />
+          <svg class="person" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-person-black"></use>
+          </svg>
         </div>
         <div class="form-field">
           <label for="tel">Телефон</label>
-          <div>
-            <svg class="icon" width="18" height="18">
-              <use href="./images/symbol-defs.svg#icon-phone-black"></use>
-            </svg>
-          </div>
-          <input type="tel" name="tel" id="tel" />
+          <input class="form-input" type="tel" name="tel" id="tel" />
+          <svg class="person" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+          </svg>
         </div>
         <div class="form-field">
           <label for="mail">Пошта</label>
-          <div>
-            <svg class="icon" width="18" height="18">
-              <use href="./images/symbol-defs.svg#icon-email-black"></use>
-            </svg>
-          </div>
-          <input type="email" name="mail" id="mail" />
+          <input class="form-input" type="email" name="mail" id="mail" />
+          <svg class="person" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-email-black"></use>
+          </svg>
         </div>
         <div class="form-field">
           <label for="coment">Коментар</label>
           <textarea name="coment" id="coment" placeholder="Введіть текст"></textarea>
         </div>
         <div class="policy">
+          <input type="checkbox" name="policy" id="policy" />
           <div class="border-vector">
             <svg width="16" height="15">
               <use href="./images/symbol-defs.svg#icon-borderVector"></use>
             </svg>
-            <svg class="icon" width="16" height="15">
+            <svg class="vector" width="16" height="15">
               <use href="./images/symbol-defs.svg#icon-Vector"></use>
             </svg>
           </div>
-          <input type="checkbox" name="policy" id="policy" />
           <label for="policy"
             >Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></label
           >
