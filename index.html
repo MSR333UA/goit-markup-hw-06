@@ -392,7 +392,7 @@
 
         <div class="sign-up">
           <p>Підпишіться на розсилку</p>
-          <input type="email" name="mail" id="mail" placeholder="E-mail" />
+          <input type="email" name="mail" placeholder="E-mail" />
         </div>
         <div class="sign-up-submit">
           <button class="submit" type="submit">
@@ -438,18 +438,20 @@
             </svg>
           </label>
           <label class="form-field">
-            <spam class="form-label">Коментар</spam>
+            <span class="form-label">Коментар</span>
             <textarea name="coment" id="coment" placeholder="Введіть текст"></textarea>
           </label>
         </form>
         <input class="checkbox" type="checkbox" name="policy" id="policy" />
         <label class="checkbox-label" for="policy">
-          <div class="new-checkbox">
+          <span class="new-checkbox">
             <svg class="icon-check" width="11" height="8">
               <use href="./images/symbol-defs.svg#icon-check"></use>
             </svg>
-          </div>
-          <p class="p">Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></p>
+          </span>
+          <span
+            ><p class="p">Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></p></span
+          >
         </label>
 
         <button class="submit" type="submit">Відправити</button>
